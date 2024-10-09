@@ -10,12 +10,11 @@ function App() {
   const [loading, setLoading] = useState(false)
 
   const API_KEY = '0e62e8af959e4215bef115816240710';
-  // const CITY = ;
 
   const fetchWeather = async() => {
     try{
       setLoading(true)
-       const response =  await fetch(`http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}`)
+       const response =  await fetch(`https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}`)
        const data = await response.json()
        console.log(data)
        setWeather(data)
@@ -27,9 +26,6 @@ function App() {
       setLoading(false)
     }
   }
-
-
-
   return (
     <>
     <div className="">
