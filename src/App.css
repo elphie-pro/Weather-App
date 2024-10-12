@@ -162,7 +162,7 @@ h3{
   .img{
     width: 9vw;
     height: 9vh;
-    margin-top: -20%;
+    margin-top: -15%;
     margin-left: -9%;
   }
 
@@ -172,14 +172,14 @@ h3{
   }
 
   .cloud{
-    width: 30vw;
-    margin-left: 25%;
+    width: 25vw;
+    margin-left: 30%;
     margin-top: 10%;
   }
 
   h1{
     font-size: 3.5rem;
-    margin-top: -4%;
+    margin-top: -8%;
     margin-left: 18%;
   }
   
@@ -193,11 +193,11 @@ h3{
     width: 10vw;
     height: 10vh;
     margin-left: 48%;
-    margin-top: 25%;
+    margin-top: 20%;
   }
   
   .time{
     margin-left: 47%;
-    margin-top: -10%;
+    margin-top: -5%;
   }
 }
