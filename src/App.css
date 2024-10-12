@@ -142,3 +142,9 @@ h3{
     margin-top: -10%;
   }
 }
+
+@media (max-width: 375px) {
+  container{
+    background-color: red;
+  }
+}
