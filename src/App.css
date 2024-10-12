@@ -144,7 +144,7 @@ h3{
 }
 
 @media (max-width: 375px) {
-  container{
+  .container{
     background-color: red;
   }
 }
