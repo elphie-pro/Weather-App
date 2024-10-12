@@ -162,7 +162,7 @@ h3{
   .img{
     width: 9vw;
     height: 9vh;
-    margin-top: -17%;
+    margin-top: -20%;
     margin-left: -9%;
   }
 
@@ -192,12 +192,12 @@ h3{
   .date{
     width: 10vw;
     height: 10vh;
-    margin-left: 38%;
-    margin-top: 45%;
+    margin-left: 48%;
+    margin-top: 25%;
   }
   
   .time{
-    margin-left: 35%;
+    margin-left: 47%;
     margin-top: -10%;
   }
 }
