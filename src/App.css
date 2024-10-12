@@ -83,3 +83,62 @@ h3{
   margin-left: 42%;
   margin-top: 50%;
 }
+
+@media (max-width:320px) {
+  .container{
+    width: 70vw;
+    height: 50vh;
+    margin-left: 16%;
+    margin-top: 55%;
+  }
+
+  h2{
+    font-size: 1rem;
+  }
+
+  .search{
+    width: 45vw;
+  }
+
+  .img{
+    width: 9vw;
+    height: 9vh;
+    margin-top: -20%;
+    margin-left: -9%;
+  }
+
+  .loader{
+    margin-left: 33%;
+    margin-top: 65%;
+  }
+
+  .cloud{
+    width: 30vw;
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+
+  h1{
+    font-size: 3.5rem;
+    margin-top: -4%;
+    margin-left: 13%;
+  }
+  
+  h3{
+    font-size: 1.5rem;
+    margin-top: -20%;
+    margin-left: 35%;
+  }
+  
+  .date{
+    width: 10vw;
+    height: 10vh;
+    margin-left: 38%;
+    margin-top: 25%;
+  }
+  
+  .time{
+    margin-left: 35%;
+    margin-top: -10%;
+  }
+}
